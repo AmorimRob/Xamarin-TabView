@@ -8,6 +8,8 @@
     x:Name="Pagina">
 
     <StackLayout Margin="30">
+        <Label Text="Conteudo da minha content page" />
+        <Entry />
         <controls:TabView
             x:Name="TabView"
             HeaderBackgroundColor="Transparent"
