@@ -13,6 +13,5 @@
     <PackageReference Include="Refractored.MvvmHelpers" Version="1.3.2.47-beta" />
     <PackageReference Include="Xam.Plugin.TabView" Version="1.0.3" />
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.912540" />
-    <PackageReference Include="Xamarin.Forms.InputKit" Version="2.3.5" />
   </ItemGroup>
 </Project>

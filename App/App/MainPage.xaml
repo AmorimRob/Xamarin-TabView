@@ -33,8 +33,6 @@
                     <Label Text="Conteudo Aba 2" />
                 </StackLayout>
             </controls:TabItem>
-
         </controls:TabView>
     </StackLayout>
-
 </ContentPage>
