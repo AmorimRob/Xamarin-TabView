@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="App.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:App.Controls;assembly=App"
+    xmlns:local="clr-namespace:App"
+    x:Name="Pagina">
+
+    <StackLayout Margin="30">
+        <controls:TabView
+            x:Name="TabView"
+            HeaderBackgroundColor="Transparent"
+            HeaderSelectionUnderlineColor="#84888b"
+            HeaderSelectionUnderlineThickness="3"
+            HeaderSelectionUnderlineWidth="164"
+            HeaderTabTextColor="#84888b">
+
+            <controls:TabItem
+                HeaderTabTextFontSize="14"
+                HeaderText="Aba 1"
+                HeaderTextColor="#84888b">
+                <StackLayout>
+                    <Label Text="{Binding Source={x:Reference Pagina}, Path=BindingContext.Texto}" />
+                </StackLayout>
+            </controls:TabItem>
+
+            <controls:TabItem
+                HeaderTabTextFontSize="14"
+                HeaderText="Aba 2"
+                HeaderTextColor="#84888b">
+                <StackLayout>
+                    <Label Text="Conteudo Aba 2" />
+                </StackLayout>
+            </controls:TabItem>
+
+        </controls:TabView>
+    </StackLayout>
+
+</ContentPage>
